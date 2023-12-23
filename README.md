@@ -17,14 +17,19 @@ This is a Kanban board app made with React JS that connects to an API from https
   - The user's view state is saved in local storage, ensuring preferences are retained even after a page reload.
 
 ## Installation
-## Installation
 
 To run the Kanban board application locally, follow these steps:
 
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/vipul-tambi/Kanban-Board.git](https://github.com/vipul-tambi/Kanban-Board.git)
+   git clone https://github.com/vipul-tambi/Kanban-Board.git
 2. **Navigate to the project directory:**
    ```bash
    cd kanbanboard
+3. **Install the required dependencies:**
+   ```bash
+   npm install
+4. **Start Developmet server**
+   ```bash
+   npm start
