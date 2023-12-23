@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# Kanban Board Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Kanban board app made with React JS that connects to an API from https://tfyincvdrafxe7ut2ziwuhe5cm0xvsdu.lambda-url.ap-south-1.on.aws/ticketAndUsers. The app lets users customize the Kanban board by grouping and sorting tickets. You can group tickets by status, user, or priority, and sort them by priority or title. The app remembers your preferences even if you reload the page.
+
+## Features
+
+- **Grouping:**
+  - Tickets can be grouped by status, user, or priority.
+
+- **Sorting:**
+  - Tickets can be sorted by priority or title.
+
+- **Design:**
+  - The app has a visually appealing and responsive design.
+
+- **User Preferences:**
+  - The user's view state is saved in local storage, ensuring preferences are retained even after a page reload.
+
 
 ## Available Scripts
 
