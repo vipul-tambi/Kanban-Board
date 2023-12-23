@@ -1,0 +1,33 @@
+.Button{
+    display: flex;
+    border: 2px solid #e6e7eb;
+            border-radius: 6px;
+            box-shadow: 0 0 8px 0 #0000001a;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.25rem 0.4rem;
+            gap: 0.7rem;
+            cursor: pointer;
+            color: #373737;
+            margin-left: 1.5rem;
+       
+            height:2em;
+            margin-top: 0.2rem;
+}
+
+.toggleClass{
+    z-index:  2;
+}
+
+
+#rotatingImage {
+    transition: transform 2s ease;
+}
+
+.rotate-container {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+.rotated {
+    transform: rotate(180deg);
+}

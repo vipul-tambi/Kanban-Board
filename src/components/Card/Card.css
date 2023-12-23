@@ -1,0 +1,26 @@
+:root {
+    --random-hue: calc(var(--random-offset, 0) + random() * 360);
+    --random-color: hsl(var(--random-hue), 70%, 50%);
+}
+
+.UserName{
+    width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            color: white;
+            font-size: 0.6em;
+}
+.UserNameDot{
+    width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: gray;
+            position: relative;
+            top: -5px;
+            left: 15px;
+            margin-right: 2px;
+}
